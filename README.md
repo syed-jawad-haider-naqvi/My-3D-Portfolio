@@ -1,12 +1,12 @@
-# My-3D-Portfolio
+# React + Vite
 
-An immersive, interactive developer portfolio built with React.js and Three.js that showcases my skills through engaging 3D graphics. This project combines modern web development with creative design principles to deliver a unique user experience.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Key Features
-- Interactive 3D elements that respond to user input
-- Smooth animations powered by GSAP
-- Optimized performance for seamless navigation
-- Responsive design adapting to all devices
-- Creative presentation of projects and skills
+Currently, two official plugins are available:
 
-This portfolio demonstrates my ability to blend technical expertise with creative design, creating an engaging showcase that stands out.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
