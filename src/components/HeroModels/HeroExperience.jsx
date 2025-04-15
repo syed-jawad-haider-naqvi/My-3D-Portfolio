@@ -21,7 +21,8 @@ const HeroExperience = () => {
           maxDistance={20} // Maximum distance for zooming out
           minDistance={5} // Minimum distance for zooming in
           minPolarAngle={Math.PI / 5} // Minimum angle for vertical rotation
-          maxPolarAngle={Math.PI / 2} // Maximum angle for vertical rotation
+          maxPolarAngle={Math.PI / 2} // Maximum angle for vertical rotation 
+          
         />
   
           <HeroLights />
@@ -30,7 +31,7 @@ const HeroExperience = () => {
             position={[0, -3.5, 0]}
             rotation={[0, -Math.PI / 4, 0]}
           >
-            <Room />
+            <Room/>
           </group>
       </Canvas>
     );
