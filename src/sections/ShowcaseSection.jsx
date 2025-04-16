@@ -69,14 +69,20 @@ const AppShowcase = () => {
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>Restauraunt Management Platform</h2>
+              <h2>RestoMania:</h2>
+              <p className="text-white-50 md:text-xl">
+               Market-Ready Restauraunt Management Desktop Platform in C#, .NET and Microsoft SQL
+              </p>
             </div>
-
+           
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/fake-news-detector-960.jpg" alt="YC Directory App" />
+                <img src="/images/fakeNewsDt.png" alt="YC Directory App" />
               </div>
               <h2>Latest Ongoing: AI-Based Fake News Detection System</h2>
+              <p className="text-white-50 md:text-xl">
+              Python, Flask, Streamlit, Scikit-Learn, NumPy, Matplotlib, Pandas, TF-IDF
+              </p>
             </div>
           </div>
         </div>

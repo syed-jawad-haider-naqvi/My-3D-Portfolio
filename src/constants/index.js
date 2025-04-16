@@ -29,7 +29,7 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 6, suffix: "", label: "Months of Certified Training" },
+    { value: 6, suffix: "", label: "Months of Training" },
     { value: 5, suffix: "+", label: "Projects Completed" },
     { value: 7, suffix: "+", label: "Technologies Mastered" },
     { value: 100, suffix: "%", label: "Commitment to Quality" },
@@ -37,37 +37,52 @@ const navLinks = [
   
   const logoIconsList = [
     {
-      imgPath: "/images/logos/company-logo-1.png",
+      imgPath: "/images/logos/logo.svg",
     },
     {
-      imgPath: "/images/logos/company-logo-2.png",
+      imgPath: "/images/logos/expresslogo.png",
     },
     {
-      imgPath: "/images/logos/company-logo-3.png",
+      imgPath: "/images/logos/nodejs.png",
     },
     {
-      imgPath: "/images/logos/company-logo-4.png",
+      imgPath: "/images/logos/mongo.png",
     },
     {
-      imgPath: "/images/logos/company-logo-5.png",
+      imgPath: "/images/logos/redux.png",
     },
     {
-      imgPath: "/images/logos/company-logo-6.png",
+      imgPath: "/images/logos/firebase logo.png",
     },
     {
-      imgPath: "/images/logos/company-logo-7.png",
+      imgPath: "/images/logos/git.png",
     },
     {
-      imgPath: "/images/logos/company-logo-8.png",
+      imgPath: "/images/logos/figma.png",
     },
     {
-      imgPath: "/images/logos/company-logo-9.png",
+      imgPath: "/images/logos/tailwind.png",
     },
     {
-      imgPath: "/images/logos/company-logo-10.png",
+      imgPath: "/images/logos/pylogo.png",
     },
     {
-      imgPath: "/images/logos/company-logo-11.png",
+      imgPath: "/images/logos/jup.png",
+    },
+    {
+      imgPath: "/images/logos/csharplogo.png",
+    },
+    {
+      imgPath: "/images/logos/dotnet.png",
+    },
+    {
+      imgPath: "/images/logos/ssms.png",
+    },
+    {
+      imgPath: "/images/logos/three.png",
+    },
+    {
+      imgPath: "/images/logos/postman.png",
     },
   ];
   
@@ -248,26 +263,17 @@ const navLinks = [
   ];
   
   const socialImgs = [
-    {
-      name: "insta",
-      url: "https://www.instagram.com/",
-      imgPath: "/images/insta.png",
-    },
-    {
-      name: "fb",
-      url: "https://www.facebook.com/",
-      imgPath: "/images/fb.png",
-    },
-    {
-      name: "x",
-      url: "https://www.x.com/",
-      imgPath: "/images/x.png",
-    },
-    {
-      name: "linkedin",
-      url: "https://www.linkedin.com/",
-      imgPath: "/images/linkedin.png",
-    },
+    // {
+    //   name: "insta",
+    //   url: "https://www.instagram.com/",
+    //   imgPath: "/images/insta.png",
+    // },
+ 
+    // {
+    //   name: "linkedin",
+    //   url: "https://www.linkedin.com/",
+    //   imgPath: "/images/linkedin.png",
+    // },
   ];
   
   export {
