@@ -49,7 +49,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper cursor-pointer" onClick={()=>window.location="https://drive.google.com/file/d/17O7PBlDaCM5G0P8GyStzefzzvCXxb8tP/view?usp=drive_link"}>
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="PetVerse Interface" />
+              <img src="/${import.meta.env.BASE_URL}images/project1.png" alt="PetVerse Interface" />
             </div>
             <div className="text-content">
               <h2>
@@ -65,7 +65,7 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/${import.meta.env.BASE_URL}images/project2.png"
                   alt="Library Management Platform"
                 />
               </div>
@@ -77,7 +77,7 @@ const AppShowcase = () => {
            
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/fakeNewsDt.png" alt="YC Directory App" />
+                <img src="/${import.meta.env.BASE_URL}images/fakeNewsDt.png" alt="YC Directory App" />
               </div>
               <h2>Latest Ongoing: AI-Based Fake News Detection System</h2>
               <p className="text-white-50 md:text-xl">
